@@ -39,9 +39,22 @@ The white squares are observatiosn that are far away from the central neurons, t
 
 ---------------------------------------------
 
+I did some feature engineering in the dataset. I added a feature based on clusters. Used square distances, silhouette score and calinski harabasz score to determine
+the best k for a k-means, then trained and predict on the data to add the clsuters as a feature. I apllied some log transformations to make the data look more like a 
+gaussean,  added intervals of continuous features as new features and trained and applied a one hot encoder. I separated all this into a new module, so i can import it
+every time i need to transform new data to make a prediction.
 
+![image](https://user-images.githubusercontent.com/70241561/118750628-27c68b00-b836-11eb-8374-b7343644489c.png)
 
+The final function calling all the transformations in a new module, ready to use.
 
+![image](https://user-images.githubusercontent.com/70241561/118750679-3c0a8800-b836-11eb-9f31-daddbd3fda3a.png)
+
+Hierarchical clustering for deciding the ammount of clusters.
+
+![image](https://user-images.githubusercontent.com/70241561/118750722-57759300-b836-11eb-8d6a-9494f8c23414.png)
+
+The intervals after the one hot encoding.
 
 
 
