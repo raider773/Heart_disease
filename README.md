@@ -78,6 +78,7 @@ but i leave it at 0.5.
 Finally i deployed the model with flask.
 
 ![image](https://user-images.githubusercontent.com/70241561/118751041-04e8a680-b837-11eb-8bef-80c11039052c.png)
+
 ![image](https://user-images.githubusercontent.com/70241561/118751059-0ade8780-b837-11eb-9db8-1352f16ea5fd.png)
 
 Importing the module i made for transforming data and apllying it to new data.
