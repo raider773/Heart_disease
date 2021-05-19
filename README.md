@@ -56,7 +56,22 @@ Hierarchical clustering for deciding the ammount of clusters.
 
 The intervals after the one hot encoding.
 
+--------------------------------------
 
+The data was small and not complex so a simple algorithm would work best. I Compared a KNN and Logistic regression and decided to keep the KNN.
+
+![image](https://user-images.githubusercontent.com/70241561/118750827-9ad00180-b836-11eb-9983-99e5f3f8b21e.png)
+
+KNN confusion matrix
+
+![image](https://user-images.githubusercontent.com/70241561/118750864-ae7b6800-b836-11eb-9f21-71dc27491b00.png)
+
+
+ROC Curve of logistic and knn.
+
+
+Important note: i didn't change the threshold. Ideally i would have change it to predict more '1' classes (heart disease) at the expense of predicting more '0' classes,
+but i leave it at 0.5.
 
 
 
